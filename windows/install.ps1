@@ -77,7 +77,8 @@ refreshenv
 Write-Host "Install MinGW (gcc, g++ and gdb) ..." -Foreground "Green"
 choco install -y mingw
 refreshenv
-
+choco install -y postman
+refreshenv
 # --- Install Fonts
 Write-Host "Install Fonts  ..." -Foreground "Green"
 choco install -y nerd-fonts-firacode

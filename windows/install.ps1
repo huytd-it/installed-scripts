@@ -83,6 +83,11 @@ Write-Host "Install Fonts  ..." -Foreground "Green"
 choco install nerd-fonts-firacode
 refreshenv
 
+# --- Install Fonts
+Write-Host "Install Fonts  ..." -Foreground "Green"
+choco install zalopc
+refreshenv
+
 # --- Install WSL (Windows Subsystem for Linux)
 Write-Host "Install WSL (and Ubuntu as well) ..." -Foreground "Green"
 wsl --install # Also installed Ubuntu
